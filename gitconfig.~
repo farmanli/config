@@ -14,6 +14,8 @@
 	last = log -1 HEAD
 	cf = config
 	ls = log --oneline
+	ll = log --oneline --no-merges --pretty=format:"%ai|%an|%h|%s"
 	l = log --oneline
 	lg = log --oneline
 	gh = log --graph --oneline
+	gl = log --pretty=format:"%ai|%h|%s" --graph
