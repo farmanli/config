@@ -18,4 +18,4 @@
 	l = log --oneline
 	lg = log --oneline
 	gh = log --graph --oneline
-	gl = log --pretty=format:"%C(red)%ai%Creset|%C(yellow)%h%Creset|%s" --graph
+	gl = log --pretty=format:"%C(red)%ai%Creset|%C(green)%an%Creset|%C(yellow)%h%Creset|%s" --graph
